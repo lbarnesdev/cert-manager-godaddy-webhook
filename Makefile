@@ -18,3 +18,4 @@ rendered-manifest.yaml:
         --set image.repository=$(IMAGE_NAME) \
         --set image.tag=$(IMAGE_TAG) \
         deploy/example-webhook > "$(OUT)/rendered-manifest.yaml"
+		
